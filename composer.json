@@ -1,0 +1,20 @@
+{
+    "name": "ljcgrowup/ljc-getcep",
+    "description": "CEP query through a simple interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Fernandes",
+            "email": "rafael.ljcgrowup@gmail.com"
+        }
+    ],
+    "require": {
+        "PHP": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ljcgrowup\\SearchZipcode\\": "src"
+        }
+    }
+}
